@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chatting"
+
+    android:background="@drawable/bc1"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/connect"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:onClick="connect"
+                android:text="CONNECT"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Click to Connect to a group"
+                android:textColor="#1330CE"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/containerf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="#FFE8EEED"></FrameLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/text_to_send"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="77"
+            android:background="@drawable/shape"
+
+
+            android:backgroundTintMode="@android:color/white"
+            android:hint="ENTER TEXT HERE"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/send"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:src="@drawable/ic_action_name"
+            android:onClick="send"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/et"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+    </ListView>
+
+
+
+</android.support.constraint.ConstraintLayout>

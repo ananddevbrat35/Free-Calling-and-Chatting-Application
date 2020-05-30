@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/isrec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CALLING:"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/availablity" />
+
+    <TextView
+        android:id="@+id/putip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="22dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="ip field is empty, so fake calling"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/isrec"
+        app:layout_constraintTop_toBottomOf="@+id/availablity" />
+
+    <Button
+        android:id="@+id/end11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="END CALL"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isrec" />
+
+    <TextView
+        android:id="@+id/availablity"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:text="UNAVAILABLE"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:text="OUTGOING CALL:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
