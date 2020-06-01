@@ -11,4 +11,4 @@ It can be downloaded in app form from the given link:\
 https://drive.google.com/open?id=1hq5yODN3RpwSysDcbVnWP5r8mCHiSqLS    
 
 
-<img src="https://user-images.githubusercontent.com/40437267/83423648-e54f4700-a448-11ea-9b8a-722c793a36b4.jpg"> <img src="https://user-images.githubusercontent.com/40437267/83423172-3dd21480-a448-11ea-9d7b-7f8027081bf0.jpg" width="240">
+<img src="https://user-images.githubusercontent.com/40437267/83423648-e54f4700-a448-11ea-9b8a-722c793a36b4.jpg" width="260"> <img src="https://user-images.githubusercontent.com/40437267/83423172-3dd21480-a448-11ea-9d7b-7f8027081bf0.jpg" width="260">
