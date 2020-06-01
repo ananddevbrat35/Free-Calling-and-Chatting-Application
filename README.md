@@ -11,4 +11,6 @@ It can be downloaded in app form from the given link:\
 https://drive.google.com/open?id=1hq5yODN3RpwSysDcbVnWP5r8mCHiSqLS    
 
 
-Home Screen Screenshot: <img src="https://user-images.githubusercontent.com/40437267/83333468-1f401200-a2be-11ea-84db-95d0d896d184.png" width="280">
+<img src="https://user-images.githubusercontent.com/40437267/83333468-1f401200-a2be-11ea-84db-95d0d896d184.png" width="280">
+
+<img src=https://github.com/ananddevbrat35/Free-Calling-and-Chatting-Application/issues/1#issue-628517447" width="280">
