@@ -9,7 +9,7 @@ It is an application for calling and chatting, feature like group chatting, one 
 • Group can be of any size, unlike many other app, there is no limit on group size. \
 • Security over network is ensured. \
 • Calling feature is implemented with advanced networking concept. \
-• This app can save the cost of calling and chatting in campus wide network. \
+• This app can save the cost of calling and chatting in campus wide network.
 
 ## Link to download the android app
 
